@@ -1,0 +1,9 @@
+---
+title: "Ocean Health Index 2024: Methods"
+---
+
+## {{< fa water title="water waves" >}} Introduction to the global Ocean Health Index (OHI) assessment
+
+The global Ocean Health Index assesses ocean health for 220 coastal countries and territories and has been conducted every year starting in 2012. The Index describes how well we are sustainably managing 10 goals for ocean ecosystems which represent the full suite of benefits that people want and need from the ocean. These goals include: artisanal fishing opportunity, biodiversity, carbon storage, clean waters, coastal livelihoods and economies, coastal protection, food provision, natural products, sense of place, and tourism and recreation. Each goal is given a score ranging from 0 to 100, and the full suite of goal scores are then averaged to obtain an overall index score for each region.
+
+For more information about the philosophy of the Ocean Health Index and model development see Halpern et al. (2012, 2015) and <http://ohi-science.org/ohi-global/>, which includes information about downloading global ocean health data.

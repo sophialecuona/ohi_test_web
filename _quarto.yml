@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs #stitches everything together to build/publish the website
+
+website:
+  sidebar:
+    title: "OHI Methods 2024 (test)"
+    logo: media/OHI-logo.png
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - regions.qmd
+      - section: Models
+        contents:
+          - index-scores.qmd # this is the file that will be rendered
+          - goal-scores.qmd
+          - section: Likely future status dimensions
+            contents:
+              - trend.qmd
+              - pressure.qmd
+              - resilience.qmd
+      - references.qmd
+      - href: https://oceanhealthindex.org/global-scores/
+        text: Check out OHI!
+        target: _blank
+  page-footer:
+    left: Learn more at the [Ocean Health Index](https://oceanhealthindex.org/){target=_blank}
+    right: Source code available on [{{< fa github brands title="The Github Octocat Icon" >}} GitHub](https://github.com/sophialecuona/ohi_test_web){target=_blank}
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+
+
+
